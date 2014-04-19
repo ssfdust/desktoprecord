@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sound=`pactl list | grep -A2 'Source #'| grep -oP " .*?.monitor"`
+sound=`pactl list | grep -A2 'Source #'| grep -oP " .*?analog-stereo.monitor"`
 #get system sound output
 help_menu()
 {
